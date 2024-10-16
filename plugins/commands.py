@@ -29,8 +29,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('+ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ +', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ],[
-            InlineKeyboardButton('✪ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url="https://t.me/vj_bot_disscussion"),
-            InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ベ', url='https://t.me/vj_bots')
+            InlineKeyboardButton('✪ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url="https://t.me/sketch_materials_bot"),
+            InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ベ', url='https://sketch_materials_bot')
         ],[
             InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
         ]]
@@ -50,7 +50,6 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('+ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ +', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('≋ Eᴀʀɴ Mᴏɴᴇʏ ≋', callback_data="shortlink_info"),
                 InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ベ', url=GRP_LNK)
             ],[
                 InlineKeyboardButton('〄 Hᴇʟᴘ 〄', callback_data='help'),
@@ -64,7 +63,6 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('+ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ +', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('≋ Eᴀʀɴ Mᴏɴᴇʏ ≋', callback_data="shortlink_info"),
                 InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ fベ', url=GRP_LNK)
             ],[
                 InlineKeyboardButton('〄 Hᴇʟᴘ 〄', callback_data='help'),
@@ -132,7 +130,6 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('+ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ +', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('≋ Eᴀʀɴ Mᴏɴᴇʏ ≋', callback_data="shortlink_info"),
                 InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ベ', url=GRP_LNK)
             ],[
                 InlineKeyboardButton('〄 Hᴇʟᴘ 〄', callback_data='help'),
@@ -146,7 +143,6 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('+ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ +', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('≋ Eᴀʀɴ Mᴏɴᴇʏ ≋', callback_data="shortlink_info"),
                 InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ベ', url=GRP_LNK)
             ],[
                 InlineKeyboardButton('〄 Hᴇʟᴘ 〄', callback_data='help'),
@@ -187,7 +183,6 @@ async def start(client, message):
                 buttons = [[
                     InlineKeyboardButton('+ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ +', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('≋ Eᴀʀɴ Mᴏɴᴇʏ ≋', callback_data="shortlink_info"),
                     InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ベ', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('〄 Hᴇʟᴘ 〄', callback_data='help'),
@@ -201,7 +196,6 @@ async def start(client, message):
                 buttons = [[
                     InlineKeyboardButton('+ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ +', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('≋ Eᴀʀɴ Mᴏɴᴇʏ ≋', callback_data="shortlink_info"),
                     InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ベ', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('〄 Hᴇʟᴘ 〄', callback_data='help'),
@@ -467,10 +461,10 @@ async def start(client, message):
                     ],[
                         InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋ & ᴠᴇʀɪꜰʏ", url=VERIFY_TUTORIAL)
                     ],[
-                InlineKeyboardButton('✅ ɢᴇᴛ ᴘʀᴇᴍɪᴜᴍ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ 💳', callback_data='subscription')
-            ]]
+                        InlineKeyboardButton('✅ ɢᴇᴛ ᴘʀᴇᴍɪᴜᴍ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ 💳', callback_data='subscription')
+                    ]]
                     await message.reply_text(
-                        text="<b>ʜᴇʏ ᴍʏ ꜰʀɪᴇɴᴅ 🥰\nʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ\nʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ, ᴘʟᴇᴀꜱᴇ ᴄʟɪᴄᴋ ᴏɴ ᴠᴇʀɪꜰʏ ʙᴜᴛᴛᴏɴ & ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ᴛʜᴇ ʙᴏᴛ ᴛɪʟʟ ɴᴇxᴛ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ\n\n1 ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ꜱᴛᴀɴᴅꜱ ꜰᴏʀ ꜰᴇᴡ ʜᴏᴜʀꜱ ᴏʀ 1 ᴅᴀʏ ᴀꜰᴛᴇʀ ᴛʜᴀᴛ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴠᴇʀɪꜰʏ ᴀɢᴀɪɴ\n\nɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ꜰɪʟᴇꜱ ᴅɪʀᴇᴄᴛʟʏ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ʏᴏᴜ ᴄᴀɴ ʙᴜʏ ᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ\n ꜱᴇɴᴅ  /plan ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ</b>",
+                        text="<b>ʜᴇʏ ᴍʏ ꜰʀɪᴇɴᴅ 🥰\nʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ\n\nʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ, ᴘʟᴇᴀꜱᴇ ᴄʟɪᴄᴋ ᴏɴ ᴠᴇʀɪꜰʏ ʙᴜᴛᴛᴏɴ & ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ᴛʜᴇ ʙᴏᴛ ᴛɪʟʟ ɴᴇxᴛ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ\n\n1 ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ꜱᴛᴀɴᴅꜱ ꜰᴏʀ ꜰᴇᴡ ʜᴏᴜʀꜱ ᴏʀ 1 ᴅᴀʏ ᴀꜰᴛᴇʀ ᴛʜᴀᴛ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴠᴇʀɪꜰʏ ᴀɢᴀɪɴ\n\nɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ꜰɪʟᴇꜱ ᴅɪʀᴇᴄᴛʟʏ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ʏᴏᴜ ᴄᴀɴ ʙᴜʏ ᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ\n ꜱᴇɴᴅ  /plan ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ</b>",
                         protect_content=True,
                         reply_markup=InlineKeyboardMarkup(btn)
                     )
@@ -545,7 +539,7 @@ async def start(client, message):
                 InlineKeyboardButton('✅ ɢᴇᴛ ᴘʀᴇᴍɪᴜᴍ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ 💳', callback_data='subscription')
             ]]
                     await message.reply_text(
-                        text="<b>ʜᴇʏ ᴍʏ ꜰʀɪᴇɴᴅ 🥰\nʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ\nʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ, ᴘʟᴇᴀꜱᴇ ᴄʟɪᴄᴋ ᴏɴ ᴠᴇʀɪꜰʏ ʙᴜᴛᴛᴏɴ & ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ᴛʜᴇ ʙᴏᴛ ᴛɪʟʟ ɴᴇxᴛ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ\n\n1 ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ꜱᴛᴀɴᴅꜱ ꜰᴏʀ ꜰᴇᴡ ʜᴏᴜʀꜱ ᴏʀ 1 ᴅᴀʏ ᴀꜰᴛᴇʀ ᴛʜᴀᴛ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴠᴇʀɪꜰʏ ᴀɢᴀɪɴ\n\nɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ꜰɪʟᴇꜱ ᴅɪʀᴇᴄᴛʟʏ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ʏᴏᴜ ᴄᴀɴ ʙᴜʏ ᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ\n ꜱᴇɴᴅ  /plan ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ</b>",
+                        text="<b>ʜᴇʏ ᴍʏ ꜰʀɪᴇɴᴅ 🥰\nʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ\n\nʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ, ᴘʟᴇᴀꜱᴇ ᴄʟɪᴄᴋ ᴏɴ ᴠᴇʀɪꜰʏ ʙᴜᴛᴛᴏɴ & ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ᴛʜᴇ ʙᴏᴛ ᴛɪʟʟ ɴᴇxᴛ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ\n\n1 ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ꜱᴛᴀɴᴅꜱ ꜰᴏʀ ꜰᴇᴡ ʜᴏᴜʀꜱ ᴏʀ 1 ᴅᴀʏ ᴀꜰᴛᴇʀ ᴛʜᴀᴛ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴠᴇʀɪꜰʏ ᴀɢᴀɪɴ\n\nɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ꜰɪʟᴇꜱ ᴅɪʀᴇᴄᴛʟʏ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ʏᴏᴜ ᴄᴀɴ ʙᴜʏ ᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ\n ꜱᴇɴᴅ  /plan ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ</b>",
                         protect_content=True,
                         reply_markup=InlineKeyboardMarkup(btn)
                     )
@@ -619,7 +613,7 @@ async def start(client, message):
                 InlineKeyboardButton('✅ ɢᴇᴛ ᴘʀᴇᴍɪᴜᴍ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ 💳', callback_data='subscription')
             ]]
             await message.reply_text(
-                text="<b>ʜᴇʏ ᴍʏ ꜰʀɪᴇɴᴅ 🥰\nʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ\nʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ, ᴘʟᴇᴀꜱᴇ ᴄʟɪᴄᴋ ᴏɴ ᴠᴇʀɪꜰʏ ʙᴜᴛᴛᴏɴ & ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ᴛʜᴇ ʙᴏᴛ ᴛɪʟʟ ɴᴇxᴛ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ\n\n1 ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ꜱᴛᴀɴᴅꜱ ꜰᴏʀ ꜰᴇᴡ ʜᴏᴜʀꜱ ᴏʀ 1 ᴅᴀʏ ᴀꜰᴛᴇʀ ᴛʜᴀᴛ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴠᴇʀɪꜰʏ ᴀɢᴀɪɴ\n\nɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ꜰɪʟᴇꜱ ᴅɪʀᴇᴄᴛʟʏ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ʏᴏᴜ ᴄᴀɴ ʙᴜʏ ᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ\n ꜱᴇɴᴅ  /plan ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ</b>",
+                text="<b>ʜᴇʏ ᴍʏ ꜰʀɪᴇɴᴅ 🥰\nʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ\n\nʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ, ᴘʟᴇᴀꜱᴇ ᴄʟɪᴄᴋ ᴏɴ ᴠᴇʀɪꜰʏ ʙᴜᴛᴛᴏɴ & ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ᴛʜᴇ ʙᴏᴛ ᴛɪʟʟ ɴᴇxᴛ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ\n\n1 ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ꜱᴛᴀɴᴅꜱ ꜰᴏʀ ꜰᴇᴡ ʜᴏᴜʀꜱ ᴏʀ 1 ᴅᴀʏ ᴀꜰᴛᴇʀ ᴛʜᴀᴛ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴠᴇʀɪꜰʏ ᴀɢᴀɪɴ\n\nɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ꜰɪʟᴇꜱ ᴅɪʀᴇᴄᴛʟʏ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ʏᴏᴜ ᴄᴀɴ ʙᴜʏ ᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ\n ꜱᴇɴᴅ  /plan ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ</b>",
                 protect_content=True,
                 reply_markup=InlineKeyboardMarkup(btn)
             )
@@ -1530,7 +1524,7 @@ async def check_plans_cmd(client, message):
             [InlineKeyboardButton("⚠️ ᴄʟᴏsᴇ / ᴅᴇʟᴇᴛᴇ ⚠️", callback_data="close_data")]
         ]
         reply_markup = InlineKeyboardMarkup(btn)
-        m=await message.reply_sticker("CAACAgIAAxkBAAIBTGVjQbHuhOiboQsDm35brLGyLQ28AAJ-GgACglXYSXgCrotQHjibHgQ")         
+        m=await message.reply_sticker("CAACAgEAAxkBAAIDSmcPOZAqAAGanZocS8cdj9rAo_YB5wAC-AEAAjgOghFb9OZ62rUyZDYE")         
         await message.reply_text(f"**😢 You Don't Have Any Premium Subscription.\n\n Check Out Our Premium /plan**",reply_markup=reply_markup)
         await asyncio.sleep(2)
         await m.delete()
