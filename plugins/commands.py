@@ -49,10 +49,10 @@ async def start(client, message):
                 InlineKeyboardButton('+ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ +', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
                 InlineKeyboardButton('≋ Eᴀʀɴ Mᴏɴᴇʏ ≋', callback_data="shortlink_info"),
-                InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ベ ベ', url=GRP_LNK)
+                InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ベ', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('〄 Hᴇʟᴘ 〄 〄', callback_data='help'),
-                InlineKeyboardButton('⍟ Aʙᴏᴜᴛ ⍟ ⍟', callback_data='about')
+                InlineKeyboardButton('〄 Hᴇʟᴘ 〄', callback_data='help'),
+                InlineKeyboardButton('⍟ Aʙᴏᴜᴛ ⍟', callback_data='about')
             ],[
                 InlineKeyboardButton('✅ Gᴇᴛ Fʀᴇᴇ Oʀ Pᴀɪᴅ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ 💳', callback_data='subscription')
             ],[
@@ -63,10 +63,10 @@ async def start(client, message):
                 InlineKeyboardButton('+ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ +', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
                 InlineKeyboardButton('≋ Eᴀʀɴ Mᴏɴᴇʏ ≋', callback_data="shortlink_info"),
-                InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ベ ベ', url=GRP_LNK)
+                InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ fベ', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('〄 Hᴇʟᴘ 〄 〄', callback_data='help'),
-                InlineKeyboardButton('⍟ Aʙᴏᴜᴛ ⍟ ⍟', callback_data='about')
+                InlineKeyboardButton('〄 Hᴇʟᴘ 〄', callback_data='help'),
+                InlineKeyboardButton('⍟ Aʙᴏᴜᴛ ⍟', callback_data='about')
             ],[
                 InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
             ]]
