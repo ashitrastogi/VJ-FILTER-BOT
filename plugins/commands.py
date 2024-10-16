@@ -32,10 +32,10 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ],[
-            InlineKeyboardButton('✪ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url="https://t.me/vj_bot_disscussion"),
-            InlineKeyboardButton('⍟ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ⍟', url='https://t.me/vj_bots')
+            InlineKeyboardButton('⇋ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ⇋', url="https://t.me/deactivated_2"),
+            InlineKeyboardButton('⇋ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ⇋', url='https://t.me/sketch_materials_bot')
         ],[
-            InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
+            InlineKeyboardButton('⇋ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ⇋', url=CHNL_LNK)
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
@@ -54,26 +54,26 @@ async def start(client, message):
                 InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
                 InlineKeyboardButton('$ ᴇᴀʀɴ ᴍᴏɴᴇʏ $', callback_data="shortlink_info"),
-                InlineKeyboardButton('⍟ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ⍟', url=GRP_LNK)
+                InlineKeyboardButton('⇋ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ⇋', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('⍟ ʜᴇʟᴘ ⍟', callback_data='help'),
-                InlineKeyboardButton('⍟ ᴀʙᴏᴜᴛ ⍟', callback_data='about')
+                InlineKeyboardButton('⇋ ʜᴇʟᴘ ⇋', callback_data='help'),
+                InlineKeyboardButton('⇋ ᴀʙᴏᴜᴛ ⇋', callback_data='about')
             ],[
                 InlineKeyboardButton('✅Gᴇᴛ Fʀᴇᴇ Oʀ Pᴀɪᴅ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ 💳', callback_data='subscription')
             ],[
-                InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
+                InlineKeyboardButton('⇋ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ⇋', url=CHNL_LNK)
             ]]
         else:
             buttons = [[
                 InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
                 InlineKeyboardButton('$ ᴇᴀʀɴ ᴍᴏɴᴇʏ $', callback_data="shortlink_info"),
-                InlineKeyboardButton('⍟ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ⍟', url=GRP_LNK)
+                InlineKeyboardButton('⇋ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ⇋', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('⍟ ʜᴇʟᴘ ⍟', callback_data='help'),
-                InlineKeyboardButton('⍟ ᴀʙᴏᴜᴛ ⍟', callback_data='about')
+                InlineKeyboardButton('⇋ ʜᴇʟᴘ ⇋', callback_data='help'),
+                InlineKeyboardButton('⇋ ᴀʙᴏᴜᴛ ⇋', callback_data='about')
             ],[
-                InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
+                InlineKeyboardButton('⇋ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ⇋', url=CHNL_LNK)
             ]]
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('🤖 Cʀᴇᴀᴛᴇ Yᴏᴜʀ Oᴡɴ Cʟᴏɴᴇ Bᴏᴛ 🤖', callback_data='clone')])
@@ -136,26 +136,26 @@ async def start(client, message):
                 InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
                 InlineKeyboardButton('$ ᴇᴀʀɴ ᴍᴏɴᴇʏ $', callback_data="shortlink_info"),
-                InlineKeyboardButton('⍟ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ⍟', url=GRP_LNK)
+                InlineKeyboardButton('⇋ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ⇋', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('⍟ ʜᴇʟᴘ ⍟', callback_data='help'),
-                InlineKeyboardButton('⍟ ᴀʙᴏᴜᴛ ⍟', callback_data='about')
+                InlineKeyboardButton('⇋ ʜᴇʟᴘ ⇋', callback_data='help'),
+                InlineKeyboardButton('⇋ ᴀʙᴏᴜᴛ ⇋', callback_data='about')
             ],[
                 InlineKeyboardButton('✅Gᴇᴛ Fʀᴇᴇ Oʀ Pᴀɪᴅ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ 💳', callback_data='subscription')
             ],[
-                InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
+                InlineKeyboardButton('⇋ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ⇋', url=CHNL_LNK)
             ]]
         else:
             buttons = [[
                 InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
                 InlineKeyboardButton('$ ᴇᴀʀɴ ᴍᴏɴᴇʏ $', callback_data="shortlink_info"),
-                InlineKeyboardButton('⍟ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ⍟', url=GRP_LNK)
+                InlineKeyboardButton('⇋ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ⇋', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('⍟ ʜᴇʟᴘ ⍟', callback_data='help'),
-                InlineKeyboardButton('⍟ ᴀʙᴏᴜᴛ ⍟', callback_data='about')
+                InlineKeyboardButton('⇋ ʜᴇʟᴘ ⇋', callback_data='help'),
+                InlineKeyboardButton('⇋ ᴀʙᴏᴜᴛ ⇋', callback_data='about')
             ],[
-                InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
+                InlineKeyboardButton('⇋ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ⇋', url=CHNL_LNK)
             ]]
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('🤖 Cʀᴇᴀᴛᴇ Yᴏᴜʀ Oᴡɴ Cʟᴏɴᴇ Bᴏᴛ 🤖', callback_data='clone')])
@@ -191,26 +191,26 @@ async def start(client, message):
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('$ ᴇᴀʀɴ ᴍᴏɴᴇʏ $', callback_data="shortlink_info"),
-                    InlineKeyboardButton('⍟ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ⍟', url=GRP_LNK)
+                    InlineKeyboardButton('⇋ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ⇋', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('⍟ ʜᴇʟᴘ ⍟', callback_data='help'),
-                    InlineKeyboardButton('⍟ ᴀʙᴏᴜᴛ ⍟', callback_data='about')
+                    InlineKeyboardButton('⇋ ʜᴇʟᴘ ⇋', callback_data='help'),
+                    InlineKeyboardButton('⇋ ᴀʙᴏᴜᴛ ⇋', callback_data='about')
                 ],[
                     InlineKeyboardButton('✅Gᴇᴛ Fʀᴇᴇ Oʀ Pᴀɪᴅ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ 💳', callback_data='subscription')
                 ],[
-                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
+                    InlineKeyboardButton('⇋ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ⇋', url=CHNL_LNK)
                 ]]
             else:
                 buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('$ ᴇᴀʀɴ ᴍᴏɴᴇʏ $', callback_data="shortlink_info"),
-                    InlineKeyboardButton('⍟ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ⍟', url=GRP_LNK)
+                    InlineKeyboardButton('⇋ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ⇋', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('⍟ ʜᴇʟᴘ ⍟', callback_data='help'),
-                    InlineKeyboardButton('⍟ ᴀʙᴏᴜᴛ ⍟', callback_data='about')
+                    InlineKeyboardButton('⇋ ʜᴇʟᴘ ⇋', callback_data='help'),
+                    InlineKeyboardButton('⇋ ᴀʙᴏᴜᴛ ⇋', callback_data='about')
                 ],[
-                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
+                    InlineKeyboardButton('⇋ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ⇋', url=CHNL_LNK)
                 ]]
             if CLONE_MODE == True:
                 buttons.append([InlineKeyboardButton('🤖 Cʀᴇᴀᴛᴇ Yᴏᴜʀ Oᴡɴ Cʟᴏɴᴇ Bᴏᴛ 🤖', callback_data='clone')])
