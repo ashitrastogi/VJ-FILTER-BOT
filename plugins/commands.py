@@ -30,7 +30,7 @@ async def start(client, message):
     await message.react(emoji=random_emoji)
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-            InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ],[
             InlineKeyboardButton('⇋ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ⇋', url="https://t.me/deactivated_2"),
             InlineKeyboardButton('⇋ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ⇋', url='https://t.me/sketch_materials_bot')
@@ -51,7 +51,7 @@ async def start(client, message):
     if len(message.command) != 2:
         if PREMIUM_AND_REFERAL_MODE == True:
             buttons = [[
-                InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
                 InlineKeyboardButton('$ ᴇᴀʀɴ ᴍᴏɴᴇʏ $', callback_data="shortlink_info"),
                 InlineKeyboardButton('⇋ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ⇋', url=GRP_LNK)
@@ -59,13 +59,13 @@ async def start(client, message):
                 InlineKeyboardButton('⇋ ʜᴇʟᴘ ⇋', callback_data='help'),
                 InlineKeyboardButton('⇋ ᴀʙᴏᴜᴛ ⇋', callback_data='about')
             ],[
-                InlineKeyboardButton('✅Gᴇᴛ Fʀᴇᴇ Oʀ Pᴀɪᴅ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ 💳', callback_data='subscription')
+                InlineKeyboardButton('✅ ɢᴇᴛ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ 💳', callback_data='subscription')
             ],[
                 InlineKeyboardButton('⇋ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ⇋', url=CHNL_LNK)
             ]]
         else:
             buttons = [[
-                InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
                 InlineKeyboardButton('$ ᴇᴀʀɴ ᴍᴏɴᴇʏ $', callback_data="shortlink_info"),
                 InlineKeyboardButton('⇋ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ⇋', url=GRP_LNK)
@@ -133,7 +133,7 @@ async def start(client, message):
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         if PREMIUM_AND_REFERAL_MODE == True:
             buttons = [[
-                InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
                 InlineKeyboardButton('$ ᴇᴀʀɴ ᴍᴏɴᴇʏ $', callback_data="shortlink_info"),
                 InlineKeyboardButton('⇋ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ⇋', url=GRP_LNK)
@@ -141,13 +141,13 @@ async def start(client, message):
                 InlineKeyboardButton('⇋ ʜᴇʟᴘ ⇋', callback_data='help'),
                 InlineKeyboardButton('⇋ ᴀʙᴏᴜᴛ ⇋', callback_data='about')
             ],[
-                InlineKeyboardButton('✅Gᴇᴛ Fʀᴇᴇ Oʀ Pᴀɪᴅ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ 💳', callback_data='subscription')
+                InlineKeyboardButton('✅ ɢᴇᴛ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ 💳', callback_data='subscription')
             ],[
                 InlineKeyboardButton('⇋ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ⇋', url=CHNL_LNK)
             ]]
         else:
             buttons = [[
-                InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
                 InlineKeyboardButton('$ ᴇᴀʀɴ ᴍᴏɴᴇʏ $', callback_data="shortlink_info"),
                 InlineKeyboardButton('⇋ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ⇋', url=GRP_LNK)
@@ -188,7 +188,7 @@ async def start(client, message):
         else:
             if PREMIUM_AND_REFERAL_MODE == True:
                 buttons = [[
-                    InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('$ ᴇᴀʀɴ ᴍᴏɴᴇʏ $', callback_data="shortlink_info"),
                     InlineKeyboardButton('⇋ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ⇋', url=GRP_LNK)
@@ -196,13 +196,13 @@ async def start(client, message):
                     InlineKeyboardButton('⇋ ʜᴇʟᴘ ⇋', callback_data='help'),
                     InlineKeyboardButton('⇋ ᴀʙᴏᴜᴛ ⇋', callback_data='about')
                 ],[
-                    InlineKeyboardButton('✅Gᴇᴛ Fʀᴇᴇ Oʀ Pᴀɪᴅ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ 💳', callback_data='subscription')
+                    InlineKeyboardButton('✅ ɢᴇᴛ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ 💳', callback_data='subscription')
                 ],[
                     InlineKeyboardButton('⇋ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ⇋', url=CHNL_LNK)
                 ]]
             else:
                 buttons = [[
-                    InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('$ ᴇᴀʀɴ ᴍᴏɴᴇʏ $', callback_data="shortlink_info"),
                     InlineKeyboardButton('⇋ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ⇋', url=GRP_LNK)
