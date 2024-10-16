@@ -21,8 +21,13 @@ BATCH_FILES = {}
 join_db = JoinReqs
 
 @Client.on_message(filters.command("start") & filters.incoming)
+# Define your list of emojis
+emoji_list = ["🔥", "⚡", "😍", "🥳", "🎉","❤️","❤️‍🔥"]
 async def start(client, message):
-    await message.react(emoji="🔥")
+    # Choose a random emoji from the list
+    random_emoji = random.choice(emoji_list)
+    # React to the message with the chosen emoji
+    await message.react(emoji=random_emoji)
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
             InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
