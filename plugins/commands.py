@@ -19,10 +19,10 @@ logger = logging.getLogger(__name__)
 
 BATCH_FILES = {}
 join_db = JoinReqs
+emoji_list = ["🔥", "⚡", "😍", "🥳", "🎉", "❤️", "❤️‍🔥"]
 
 @Client.on_message(filters.command("start") & filters.incoming)
 # Define your list of emojis
-emoji_list = ["🔥", "⚡", "😍", "🥳", "🎉", "❤️", "❤️‍🔥"]
 async def start(client, message):
     # Choose a random emoji from the list
     random_emoji = random.choice(emoji_list)
