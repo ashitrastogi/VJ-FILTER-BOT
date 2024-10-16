@@ -461,12 +461,12 @@ async def start(client, message):
             if not await db.has_premium_access(message.from_user.id):
                 if not await check_verification(client, message.from_user.id) and VERIFY == True:
                     btn = [[
-                        InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
+                        InlineKeyboardButton("✅ VERIFY ✅", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                     ],[
                         InlineKeyboardButton("How To Open Link & Verify", url=VERIFY_TUTORIAL)
                     ]]
                     await message.reply_text(
-                        text="<b>You are not verified !\nKindly verify to continue !</b>",
+                        text="<b>ʜᴇʏ ᴍʏ ꜰʀɪᴇɴᴅ 🥰\n\nʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ 😥\n\nᴘʟᴇᴀꜱᴇ ᴄʟɪᴄᴋ ᴏɴ ᴠᴇʀɪꜰʏ ʙᴜᴛᴛᴏɴ & ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ᴛʜᴇ ʙᴏᴛ ᴛɪʟʟ ɴᴇxᴛ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ\n\nᴏɴᴇ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ꜱᴛᴀɴᴅꜱ ꜰᴏʀ ᴜᴘᴛᴏ ꜰᴇᴡ ʜᴏᴜʀꜱ ᴏʀ ᴏɴᴇ ᴅᴀʏ, ᴀꜰᴛᴇʀ ᴛʜᴀᴛ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴠᴇʀɪꜰʏ ᴀɢᴀɪɴ\n\nɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ꜰɪʟᴇꜱ ᴅɪʀᴇᴄᴛʟʏ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ʏᴏᴜ ᴄᴀɴ ʙᴜʏ ᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ 😊\n\nꜱᴇɴᴅ /plan ᴛᴏ ꜱᴇᴇ ᴀʟʟ ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ ᴘʟᴀɴꜱ</b>",
                         protect_content=True,
                         reply_markup=InlineKeyboardMarkup(btn)
                     )
@@ -534,12 +534,12 @@ async def start(client, message):
             if not await db.has_premium_access(message.from_user.id):
                 if not await check_verification(client, message.from_user.id) and VERIFY == True:
                     btn = [[
-                        InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
+                        InlineKeyboardButton("✅ VERIFY ✅", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                     ],[
                         InlineKeyboardButton("How To Open Link & Verify", url=VERIFY_TUTORIAL)
                     ]]
                     await message.reply_text(
-                        text="<b>You are not verified !\nKindly verify to continue !</b>",
+                        text="<b>ʜᴇʏ ᴍʏ ꜰʀɪᴇɴᴅ 🥰\n\nʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ 😥\n\nᴘʟᴇᴀꜱᴇ ᴄʟɪᴄᴋ ᴏɴ ᴠᴇʀɪꜰʏ ʙᴜᴛᴛᴏɴ & ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ᴛʜᴇ ʙᴏᴛ ᴛɪʟʟ ɴᴇxᴛ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ\n\nᴏɴᴇ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ꜱᴛᴀɴᴅꜱ ꜰᴏʀ ᴜᴘᴛᴏ ꜰᴇᴡ ʜᴏᴜʀꜱ ᴏʀ ᴏɴᴇ ᴅᴀʏ, ᴀꜰᴛᴇʀ ᴛʜᴀᴛ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴠᴇʀɪꜰʏ ᴀɢᴀɪɴ\n\nɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ꜰɪʟᴇꜱ ᴅɪʀᴇᴄᴛʟʏ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ʏᴏᴜ ᴄᴀɴ ʙᴜʏ ᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ 😊\n\nꜱᴇɴᴅ /plan ᴛᴏ ꜱᴇᴇ ᴀʟʟ ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ ᴘʟᴀɴꜱ</b>",
                         protect_content=True,
                         reply_markup=InlineKeyboardMarkup(btn)
                     )
@@ -606,12 +606,12 @@ async def start(client, message):
     if not await db.has_premium_access(message.from_user.id):
         if not await check_verification(client, message.from_user.id) and VERIFY == True:
             btn = [[
-                InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
+                InlineKeyboardButton("✅ VERIFY ✅", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
             ],[
                 InlineKeyboardButton("How To Open Link & Verify", url=VERIFY_TUTORIAL)
             ]]
             await message.reply_text(
-                text="<b>You are not verified !\nKindly verify to continue !</b>",
+                text="<b>ʜᴇʏ ᴍʏ ꜰʀɪᴇɴᴅ 🥰\n\nʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ 😥\n\nᴘʟᴇᴀꜱᴇ ᴄʟɪᴄᴋ ᴏɴ ᴠᴇʀɪꜰʏ ʙᴜᴛᴛᴏɴ & ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ᴛʜᴇ ʙᴏᴛ ᴛɪʟʟ ɴᴇxᴛ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ\n\nᴏɴᴇ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ꜱᴛᴀɴᴅꜱ ꜰᴏʀ ᴜᴘᴛᴏ ꜰᴇᴡ ʜᴏᴜʀꜱ ᴏʀ ᴏɴᴇ ᴅᴀʏ, ᴀꜰᴛᴇʀ ᴛʜᴀᴛ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴠᴇʀɪꜰʏ ᴀɢᴀɪɴ\n\nɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ꜰɪʟᴇꜱ ᴅɪʀᴇᴄᴛʟʏ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ʏᴏᴜ ᴄᴀɴ ʙᴜʏ ᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ 😊\n\nꜱᴇɴᴅ /plan ᴛᴏ ꜱᴇᴇ ᴀʟʟ ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ ᴘʟᴀɴꜱ</b>",
                 protect_content=True,
                 reply_markup=InlineKeyboardMarkup(btn)
             )
