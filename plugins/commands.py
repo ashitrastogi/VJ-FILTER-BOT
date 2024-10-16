@@ -536,8 +536,8 @@ async def start(client, message):
                     ],[
                         InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋ & ᴠᴇʀɪꜰʏ", url=VERIFY_TUTORIAL)
                     ],[
-                InlineKeyboardButton('✅ ɢᴇᴛ ᴘʀᴇᴍɪᴜᴍ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ 💳', callback_data='subscription')
-            ]]
+                        InlineKeyboardButton('✅ ɢᴇᴛ ᴘʀᴇᴍɪᴜᴍ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ 💳', callback_data='subscription')
+                    ]]
                     await message.reply_text(
                         text="<b>ʜᴇʏ ᴍʏ ꜰʀɪᴇɴᴅ 🥰\nʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ\n\nʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ, ᴘʟᴇᴀꜱᴇ ᴄʟɪᴄᴋ ᴏɴ ᴠᴇʀɪꜰʏ ʙᴜᴛᴛᴏɴ & ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ᴛʜᴇ ʙᴏᴛ ᴛɪʟʟ ɴᴇxᴛ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ\n\n1 ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ꜱᴛᴀɴᴅꜱ ꜰᴏʀ ꜰᴇᴡ ʜᴏᴜʀꜱ ᴏʀ 1 ᴅᴀʏ ᴀꜰᴛᴇʀ ᴛʜᴀᴛ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴠᴇʀɪꜰʏ ᴀɢᴀɪɴ\n\nɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ꜰɪʟᴇꜱ ᴅɪʀᴇᴄᴛʟʏ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ʏᴏᴜ ᴄᴀɴ ʙᴜʏ ᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ\n ꜱᴇɴᴅ  /plan ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ</b>",
                         protect_content=True,
