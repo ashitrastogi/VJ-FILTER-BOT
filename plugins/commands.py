@@ -1,8 +1,8 @@
 # Don't Remove Credit @sketch_materials_bot
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @deactivated_2
-
-import os, string, logging, random, asyncio, time, datetime, re, sys, json, base64
+import random
+import os, string, logging, asyncio, time, datetime, re, sys, json, base64
 from Script import script
 from pyrogram import Client, filters, enums
 from pyrogram.errors import ChatAdminRequired, FloodWait
@@ -22,7 +22,7 @@ join_db = JoinReqs
 
 @Client.on_message(filters.command("start") & filters.incoming)
 # Define your list of emojis
-emoji_list = ["🔥", "⚡", "😍", "🥳", "🎉","❤️","❤️‍🔥"]
+emoji_list = ["🔥", "⚡", "😍", "🥳", "🎉", "❤️", "❤️‍🔥"]
 async def start(client, message):
     # Choose a random emoji from the list
     random_emoji = random.choice(emoji_list)
