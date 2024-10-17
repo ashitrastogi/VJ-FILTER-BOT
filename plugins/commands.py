@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 
 BATCH_FILES = {}
 join_db = JoinReqs
-emoji_list = ["🔥🔥", "⚡⚡", "😍😍", "🥳🥳", "🎉🎉", "❤️❤️", "❤️‍🔥❤️‍🔥"]
+emoji_list = ["🔥", "⚡", "😍", "🥳", "🎉", "❤️", "❤️‍🔥"]
 
 @Client.on_message(filters.command("start") & filters.incoming)
 # Define your list of emojis
