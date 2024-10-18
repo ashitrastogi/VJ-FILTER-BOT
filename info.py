@@ -73,7 +73,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', 'dnjeirjrdjd') # Public
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movierequesttbbo')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+XCcxjGSO48k5ZDhl')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/htdmtbb/12')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/htdmtbb/15')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'movierequesttbbo') # Support Chat Link Without https:// or @
 
 # True Or False
@@ -103,7 +103,7 @@ VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'a54e5bb9c8800261d15e
 # if verify second shortner is True then fill below url and api
 VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', 'shortxlinks.com')
 VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '4927774c11791d1452636b76cd2c9dcc77c6bb69')
-VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/htdmtbb/12')
+VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/htdmtbb/15')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
