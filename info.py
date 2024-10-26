@@ -18,8 +18,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'TechVJBot')
-API_ID = int(environ.get('API_ID', '27747092'))
-API_HASH = environ.get('API_HASH', '184dbff3d11d10cb726cbde4a28ca8a0')
+API_ID = int(environ.get('API_ID', '27372683'))
+API_HASH = environ.get('API_HASH', '975c61d8078758c6dade08e6770cef5b')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
@@ -30,7 +30,7 @@ MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/htdmtbb/12")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 # Admins, Channels & Users
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002327237382'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002471367452'))
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5244780439').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', 'https://t.me/+XCcxjGSO48k5ZDhl').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
@@ -51,7 +51,7 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://binondiborthakur56:xaY86SW9CqJ6DIDY@cluster0.6matf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://poojachauhan1544:HejlOQVmZ9wAQRdO@cluster0.lmrxr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "techvjautobot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'techvjcollection')
 
@@ -97,18 +97,18 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Token Verification Info :
 VERIFY = bool(environ.get('VERIFY', True))
-VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', True))
+VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'api.gplinks.com')
-VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'a54e5bb9c8800261d15e4c9965e0eff5d6b7f3ab')
+VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '51fd5de9ea5a4e1fc0807179f19c10bb26639e09')
 # if verify second shortner is True then fill below url and api
-VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', 'shortxlinks.com')
-VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '4927774c11791d1452636b76cd2c9dcc77c6bb69')
+VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', '')
+VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/htdmtbb/15')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'api.gplinks.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'a54e5bb9c8800261d15e4c9965e0eff5d6b7f3ab')
+SHORTLINK_API = environ.get('SHORTLINK_API', '51fd5de9ea5a4e1fc0807179f19c10bb26639e09')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
