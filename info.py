@@ -107,8 +107,8 @@ VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/htdmtbb/15')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shortxlinks.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'd9b92363083f5ae8dc169ec6b732cd29436da1c8')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'http://linkmax.free.nf')
+SHORTLINK_API = environ.get('SHORTLINK_API', '2ffbb2bd74ea3ed2b1a80587106e1773d559f3cd')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
