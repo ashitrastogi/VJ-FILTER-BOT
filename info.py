@@ -106,7 +106,7 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/htdmtbb/15')
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', true))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://urlshortx.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '4a1fe1c4f90e5e0a87c6fe72b2a8f0ca317097ed')
 
