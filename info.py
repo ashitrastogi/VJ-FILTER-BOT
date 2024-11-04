@@ -98,8 +98,8 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 # Token Verification Info :
 VERIFY = bool(environ.get('VERIFY', True))
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
-VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'shortxlinks.com')
-VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'd9b92363083f5ae8dc169ec6b732cd29436da1c8')
+VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'https://urlshortx.com')
+VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '4a1fe1c4f90e5e0a87c6fe72b2a8f0ca317097ed')
 # if verify second shortner is True then fill below url and api
 VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', '')
 VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
@@ -107,8 +107,8 @@ VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/htdmtbb/15')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'http://linkmax.free.nf')
-SHORTLINK_API = environ.get('SHORTLINK_API', '2ffbb2bd74ea3ed2b1a80587106e1773d559f3cd')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://urlshortx.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '4a1fe1c4f90e5e0a87c6fe72b2a8f0ca317097ed')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
